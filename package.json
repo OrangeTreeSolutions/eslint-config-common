@@ -1,0 +1,24 @@
+{
+  "name": "@ptsoptics/eslint-config-common",
+  "version": "1.0.0",
+  "description": "PTS Optics common library for eslint files used across organization",
+  "scripts": {
+    "postinstall": "node ./postinstall.js"
+  },
+  "main": "eslint-config.js",
+  "author": "Heather MacPhail",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/PTSoptics/eslint-config-common.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.24.0",
+    "@typescript-eslint/parser": "^2.24.0",
+    "eslint": "^6.8.0",
+    "shelljs": "^0.8.3",
+    "tsutils": "^3.17.1"
+  }
+}
