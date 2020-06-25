@@ -56,6 +56,7 @@ module.exports = {
         "@typescript-eslint/no-extra-semi": "error",
         "@typescript-eslint/no-inferrable-types": "off",
         "@typescript-eslint/no-unused-expressions": "error",
+        "@typescript-eslint/no-unused-vars": "off",
         "@typescript-eslint/no-use-before-define": "off",
         "@typescript-eslint/no-var-requires": "warn",
         "@typescript-eslint/prefer-for-of": "error",
