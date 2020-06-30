@@ -38,6 +38,7 @@ module.exports = {
         "no-whitespace-before-property": "error",
         "one-var": [ "error", "never" ],
         "prefer-const": "error",
+        "quotes": ["error", "double", { "allowTemplateLiterals": true, "avoidEscape": true }],
         "semi": "off",
         "semi-spacing": [ "error", { "before": false, "after": true } ],
         "space-before-function-paren": "off",
