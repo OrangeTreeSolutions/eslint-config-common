@@ -37,6 +37,7 @@ module.exports = {
         "no-var": "error",
         "no-whitespace-before-property": "error",
         "one-var": [ "error", "never" ],
+        "prefer-arrow-callback": [ "error", { "allowNamedFunctions": true } ],
         "prefer-const": "error",
         "quotes": ["error", "double", { "allowTemplateLiterals": true, "avoidEscape": true }],
         "semi": "off",
