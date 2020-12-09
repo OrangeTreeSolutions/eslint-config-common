@@ -73,7 +73,10 @@ module.exports = {
         "@typescript-eslint/prefer-for-of": "error",
         "@typescript-eslint/prefer-function-type": "error",
         "@typescript-eslint/semi": [ "error", "always" ],
-        "@typescript-eslint/space-before-function-paren": [ "error", "never" ],
+        "@typescript-eslint/space-before-function-paren": [
+            "error",
+            { "anonymous": "never", "named": "never", "asyncArrow": "ignore" }
+        ],
         "@typescript-eslint/unified-signatures": "error"
     }
 };
