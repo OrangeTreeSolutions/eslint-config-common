@@ -1,6 +1,6 @@
 {
   "name": "@ptsoptics/eslint-config-common",
-  "version": "2.1.2",
+  "version": "2.1.3",
   "description": "PTS Optics common library for eslint files used across organization",
   "scripts": {
     "postinstall": "node ./postinstall.js"
