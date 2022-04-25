@@ -60,7 +60,8 @@ module.exports = {
             { "selector": "variableLike", "format": ["camelCase", "PascalCase", "UPPER_CASE"], "leadingUnderscore": "allow" },
             { "selector": "memberLike", "format": ["camelCase", "PascalCase", "UPPER_CASE"], "leadingUnderscore": "allow" },
             { "selector": "typeLike", "format": ["PascalCase"] },
-            { "selector": "interface", "format": ["PascalCase"], "prefix": ["I"] }
+            { "selector": "interface", "format": ["PascalCase"], "prefix": ["I"] },
+            { "selector": "objectLiteralProperty", "fomat": null}
         ],
         "@typescript-eslint/no-dupe-class-members": "error",
         "@typescript-eslint/no-explicit-any": "off",
