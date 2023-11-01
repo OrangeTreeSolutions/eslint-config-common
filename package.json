@@ -1,22 +1,32 @@
 {
-  "name": "@ptsoptics/eslint-config-common",
+  "name": "@orangetreesolutions/eslint-config-common",
   "version": "2.2.4",
-  "description": "PTS Optics common library for eslint files used across organization",
+  "description": "common library for eslint files",
+  "license": "MIT",
+  "private": "true",
   "scripts": {
     "postinstall": "node ./postinstall.js"
   },
   "main": "eslint-config.js",
   "author": "Heather MacPhail",
+  "contributors": [
+    {
+      "name": "Heather MacPhail"
+    },
+    {
+      "name": "Dave Barreto"
+    }
+  ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/PTSoptics/eslint-config-common.git"
+    "url": "git://github.com/OrangeTreeSolutions/eslint-config-common.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.47.0",
-    "@typescript-eslint/parser": "^5.47.0",
+    "@typescript-eslint/eslint-plugin": "^6.9.1",
+    "@typescript-eslint/parser": "^6.9.1",
     "eslint": "^8.30.0",
     "shelljs": "^0.8.5",
     "tsutils": "^3.21.0"
