@@ -3,7 +3,6 @@
   "version": "2.2.4",
   "description": "common library for eslint files",
   "license": "MIT",
-  "private": "true",
   "scripts": {
     "postinstall": "node ./postinstall.js"
   },
