@@ -1,6 +1,6 @@
 {
   "name": "@orangetreesolutions/eslint-config-common",
-  "version": "2.2.4",
+  "version": "2.2.5",
   "description": "common library for eslint files",
   "license": "MIT",
   "scripts": {
